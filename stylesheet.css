@@ -1,3 +1,35 @@
-h1 {
-  color: #07b496;
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからcssを書いていきましょう */
+.header {
+  background-color: gray;
+  height: 50px;
+}
+.header-logo {
+  float: left;
+  font-size: 20px;
+  /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
+  color:white;
+  font-family: "Hiragino Maru Gothic Pro"
+}
+.main {
+  height:300px;
 }
